@@ -4,8 +4,8 @@ A front-end-only personal homepage built with vanilla HTML5, CSS3, and
 ES6+ modules — no frameworks, no component libraries, no backend.
 
 - **Author:** Jerith
-- **Class:** _Add your course link here, e.g. `CS5610 Web Development — Section X`_
-- **Live site:** _Add your GitHub Pages (or other) deployment URL here after deploying_
+- **Class:** CS5610.18490.202710 — Web Development (online)
+- **Live site:** https://jerith-gurusubburam.github.io/Jerith-PersonalHomePage/
 
 ## Project objective
 
@@ -104,8 +104,6 @@ Deployed as a static site via GitHub Pages:
 2. In the repo settings, enable **Pages** → deploy from the `main`
    branch, root folder.
 3. GitHub serves `index.html` at `https://<username>.github.io/<repo>/`.
-
-_Add the actual Pages URL above once deployed._
 
 ## Use of GenAI tools
 
