@@ -1,0 +1,14 @@
+<svg viewBox="0 0 320 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t1 d1">
+  <title id="t1">Stacked containers diagram</title>
+  <desc id="d1">Three rounded rectangles stacked and connected by dotted lines, representing containerized services</desc>
+  <rect width="320" height="200" fill="#131C2E"/>
+  <rect x="40" y="30" width="110" height="50" rx="8" fill="#0B1220" stroke="#3FBFAD" stroke-width="2"/>
+  <rect x="40" y="95" width="110" height="50" rx="8" fill="#0B1220" stroke="#3FBFAD" stroke-width="2"/>
+  <rect x="40" y="120" width="110" height="0" fill="none"/>
+  <rect x="180" y="60" width="100" height="90" rx="8" fill="#0B1220" stroke="#E3A857" stroke-width="2"/>
+  <line x1="150" y1="55" x2="180" y2="80" stroke="#2A3548" stroke-width="2" stroke-dasharray="4 4"/>
+  <line x1="150" y1="120" x2="180" y2="110" stroke="#2A3548" stroke-width="2" stroke-dasharray="4 4"/>
+  <circle cx="70" cy="55" r="4" fill="#3FBFAD"/>
+  <circle cx="70" cy="120" r="4" fill="#3FBFAD"/>
+  <circle cx="230" cy="105" r="4" fill="#E3A857"/>
+</svg>

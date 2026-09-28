@@ -1,0 +1,7 @@
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Pipeline node mark">
+  <rect width="64" height="64" rx="14" fill="#0B1220"/>
+  <path d="M10 44 C 22 44, 22 32, 32 32 C 42 32, 42 20, 54 20" fill="none" stroke="#3FBFAD" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="10" cy="44" r="5" fill="#E3A857"/>
+  <circle cx="32" cy="32" r="5" fill="#3FBFAD"/>
+  <circle cx="54" cy="20" r="5" fill="#E3A857"/>
+</svg>

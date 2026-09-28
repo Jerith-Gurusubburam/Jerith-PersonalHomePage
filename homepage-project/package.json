@@ -1,0 +1,18 @@
+{
+  "name": "jerith-homepage",
+  "version": "1.0.0",
+  "description": "Personal homepage built with vanilla HTML5, CSS3, and ES6+ modules for a front-end web development course assignment.",
+  "type": "module",
+  "author": "Jerith",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "lint": "eslint js/"
+  },
+  "devDependencies": {
+    "eslint": "^9.11.1",
+    "prettier": "^3.3.3"
+  }
+}

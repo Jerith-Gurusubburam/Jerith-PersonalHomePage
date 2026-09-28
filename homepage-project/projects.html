@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects — Jerith</title>
+    <meta
+      name="description"
+      content="Detailed write-ups of Jerith's work on containerized ML microservices, ETL pipelines, and production ML observability."
+    />
+    <meta name="author" content="Jerith" />
+    <link rel="icon" type="image/svg+xml" href="./images/favicon.svg" />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="wrapper site-header__inner">
+        <a class="brand" href="./index.html">
+          <img
+            class="brand__mark"
+            src="./images/favicon.svg"
+            alt="Site mark: a teal pipeline curve connecting three nodes"
+            width="32"
+            height="32"
+          />
+          <span>Jerith</span>
+        </a>
+        <nav class="nav" aria-label="Primary">
+          <button
+            class="nav-toggle"
+            type="button"
+            aria-expanded="false"
+            aria-controls="primary-nav-list"
+          >
+            Menu
+          </button>
+          <ul class="nav__list" id="primary-nav-list">
+            <li><a class="nav__link" href="./index.html">Home</a></li>
+            <li><a class="nav__link" href="./projects.html">Projects</a></li>
+            <li><a class="nav__link" href="./ai-notes.html">Field Notes</a></li>
+            <li><a class="nav__link" href="./index.html#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="section">
+        <div class="wrapper">
+          <p class="section__eyebrow">Projects</p>
+          <h1>How data actually gets from a log line to a decision</h1>
+          <p class="section__lead">
+            Three stages of the same underlying pipeline, each pulled out
+            and described on its own.
+          </p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="wrapper grid grid--two">
+          <div>
+            <h2>Containerized ML microservices</h2>
+            <p>
+              Trained models are only useful once something can call them
+              reliably. I packaged models as independent Docker containers,
+              each exposing a small, versioned API, so a new model version
+              could be deployed without redeploying anything else in the
+              system.
+            </p>
+            <ul class="card__tags">
+              <li>Docker</li>
+              <li>Microservices</li>
+              <li>Versioned APIs</li>
+            </ul>
+          </div>
+          <figure class="card">
+            <img
+              src="./images/project-containers.svg"
+              alt="Diagram of three containerized services connected by dotted lines"
+              width="320"
+              height="200"
+            />
+            <figcaption class="card__figcaption">
+              Each box is an independently deployable model service.
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="wrapper grid grid--two">
+          <figure class="card">
+            <img
+              src="./images/project-etl.svg"
+              alt="Diagram of a curved flow line running through extract, transform, and load checkpoints"
+              width="320"
+              height="200"
+            />
+            <figcaption class="card__figcaption">
+              The extract-transform-load path feeding the training set.
+            </figcaption>
+          </figure>
+          <div>
+            <h2>ETL pipelines</h2>
+            <p>
+              Before a model ever sees a row of data, it has usually passed
+              through an extract-transform-load job that pulls records from
+              upstream systems, cleans and reshapes them, and lands them
+              somewhere a training script can read. I built and maintained
+              these jobs so the data feeding our models stayed consistent
+              as upstream sources changed.
+            </p>
+            <ul class="card__tags">
+              <li>ETL</li>
+              <li>Data engineering</li>
+              <li>CI/CD</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="wrapper grid grid--two">
+          <div>
+            <h2>Production ML observability</h2>
+            <p>
+              Shipping a model is the easy part; knowing when it quietly
+              stops working is the hard part. I added monitoring that
+              tracked prediction drift, input distribution shifts, and
+              latency, and wired alerts into the same CI/CD pipeline used
+              to deploy the models in the first place.
+            </p>
+            <ul class="card__tags">
+              <li>Monitoring</li>
+              <li>Drift detection</li>
+              <li>Alerting</li>
+            </ul>
+          </div>
+          <figure class="card">
+            <img
+              src="./images/project-observability.svg"
+              alt="Diagram of a jagged signal line with one highlighted anomaly point above status bars"
+              width="320"
+              height="200"
+            />
+            <figcaption class="card__figcaption">
+              A flagged anomaly point against a run of otherwise normal
+              signal.
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrapper site-footer__inner">
+        <p>© <span data-current-year></span> Jerith. Built with vanilla HTML, CSS, and JS.</p>
+        <ul class="social-list">
+          <li><a href="https://github.com/">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/">LinkedIn</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <script type="module" src="./js/main.js"></script>
+  </body>
+</html>

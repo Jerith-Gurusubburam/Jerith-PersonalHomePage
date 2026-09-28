@@ -1,0 +1,8 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t4 d4">
+  <title id="t4">Abstract initials mark</title>
+  <desc id="d4">A circular badge with the letter J formed from a flowing pipeline-style stroke</desc>
+  <circle cx="100" cy="100" r="96" fill="#131C2E" stroke="#2A3548" stroke-width="2"/>
+  <path d="M70 55 h48 M118 55 v70 c0 22 -18 34 -38 34 c-14 0 -26 -6 -32 -18"
+        fill="none" stroke="#3FBFAD" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="150" cy="150" r="7" fill="#E3A857"/>
+</svg>
