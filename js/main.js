@@ -79,7 +79,8 @@ function initPipelineVisual() {
   ];
 
   const visual = new PipelineVisual(canvas, caption, stages);
-  visual.defaultCaption = "Hover or tab through the stages to see what each one does.";
+  visual.defaultCaption =
+    "Hover or tab through the stages to see what each one does.";
   caption.textContent = visual.defaultCaption;
 }
 

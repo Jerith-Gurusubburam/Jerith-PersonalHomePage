@@ -29,11 +29,11 @@ mockups) behind these decisions.
 
 ## Pages
 
-| Page             | URL               | Purpose                                             |
-| ---------------- | ----------------- | ---------------------------------------------------- |
-| Home              | `index.html`      | Hero, about, experience timeline, project preview, contact form |
-| Projects          | `projects.html`   | Full write-ups of three projects                     |
-| Field Notes (AI)  | `ai-notes.html`   | An AI-generated article, disclosed on the page itself |
+| Page             | URL             | Purpose                                                         |
+| ---------------- | --------------- | --------------------------------------------------------------- |
+| Home             | `index.html`    | Hero, about, experience timeline, project preview, contact form |
+| Projects         | `projects.html` | Full write-ups of three projects                                |
+| Field Notes (AI) | `ai-notes.html` | An AI-generated article, disclosed on the page itself           |
 
 ## The original component
 

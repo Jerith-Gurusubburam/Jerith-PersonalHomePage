@@ -27,6 +27,7 @@ and the hero's interactive canvas visualization.
 ## 2. User personas
 
 ### Persona A — "Priya, the recruiter"
+
 - **Role:** University recruiting coordinator at a mid-size tech company.
 - **Goals:** Quickly determine whether a candidate's background matches
   an open ML/data engineering role; find a way to reach out.
@@ -38,6 +39,7 @@ and the hero's interactive canvas visualization.
   contact path.
 
 ### Persona B — "Marco, a fellow grad student"
+
 - **Role:** Classmate considering whether to collaborate on a project or
   ask for study-group input on an ML systems topic.
 - **Goals:** Understand what Jerith has actually built, not just his job
@@ -48,6 +50,7 @@ and the hero's interactive canvas visualization.
   to judge technical fit, not just marketing language.
 
 ### Persona C — "Dr. Alvarez, the course instructor"
+
 - **Role:** Grading this assignment.
 - **Goals:** Confirm the site meets the assignment's technical and
   structural requirements (multiple pages, ES6 modules, accessibility,
@@ -62,36 +65,36 @@ and the hero's interactive canvas visualization.
 1. **As a recruiter (Priya)**, I want to understand within a few seconds
    what field Jerith works in and what degree he's completing, so that I
    can decide whether to keep reading or move on to the next candidate.
-   *Addressed by:* the hero section's role line and heading, visible
+   _Addressed by:_ the hero section's role line and heading, visible
    without scrolling.
 
 2. **As a recruiter (Priya)**, I want an easy way to reach out once I've
    decided Jerith looks like a fit, so that I don't have to hunt for
-   contact information. *Addressed by:* the persistent "Get in touch"
+   contact information. _Addressed by:_ the persistent "Get in touch"
    button in the hero and the contact section/footer links.
 
 3. **As a fellow student (Marco)**, I want to read a detailed
    explanation of one of Jerith's projects, so that I can judge whether
-   his experience overlaps with a problem I'm working on. *Addressed
-   by:* the dedicated `projects.html` page with expanded, two-column
+   his experience overlaps with a problem I'm working on. _Addressed
+   by:_ the dedicated `projects.html` page with expanded, two-column
    write-ups for each project.
 
 4. **As a visitor exploring the site on my phone**, I want the
    navigation to collapse into a menu I can tap, so that the header
-   doesn't crowd a small screen. *Addressed by:* the responsive
+   doesn't crowd a small screen. _Addressed by:_ the responsive
    `nav-toggle` button and collapsible menu below a 42rem breakpoint.
 
 5. **As a visitor curious about the "how it works" side of ML
    engineering (Marco or Priya)**, I want to interact with something
    that shows the stages of an ML pipeline rather than just reading a
-   bullet list, so that the idea sticks. *Addressed by:* the hero's
+   bullet list, so that the idea sticks. _Addressed by:_ the hero's
    `PipelineVisual` canvas component — hovering or tabbing through the
    stage nodes updates a caption describing what that stage does.
 
 6. **As an instructor grading this project (Dr. Alvarez)**, I want the
    code, documentation, and configuration to be organized and
    discoverable, so that I can verify the assignment's requirements
-   without digging. *Addressed by:* the `css/`, `js/`, and `images/`
+   without digging. _Addressed by:_ the `css/`, `js/`, and `images/`
    folder split, the README, this design document, and the lint/format
    configuration files at the project root.
 
@@ -110,7 +113,7 @@ and the hero's interactive canvas visualization.
   - `--color-flow` `#3fbfad` — teal "data in motion" accent (links,
     active nav, primary buttons, most pipeline nodes)
   - `--color-highlight` `#e3a857` — amber accent reserved for the
-    *active/hovered* pipeline stage and timeline markers, so it always
+    _active/hovered_ pipeline stage and timeline markers, so it always
     means "this one is selected"
 - **Type**
   - Display: `Fraunces` (serif) for all headings — a deliberate contrast
